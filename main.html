@@ -85,8 +85,8 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">クレーンゲームが脱出の鍵のようだ<br>
-                友人を助けるために<br>
+              <div class="clear-message__content">箱を調べてみるとbr>
+                突然全てのクレーンゲームが動き出した<br>
                 残りの謎をとき、扉の鍵を見つけ出そう！</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
@@ -107,9 +107,17 @@ Youtube貼り付けここまで -->
           <div class="section">
             <div class="container">
               <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>クレーゲームを起動させろ！</h2>
-              <p class="text-center">クレーンゲームが脱出の鍵のようだ<br>
-                しかしクレーンゲームが動いていない。<br>
-                クレーンゲームを動かすために謎を解こう</p>
+              <p class="text-center">クレーンゲームの方に向かうと、ゲームコインが10枚ほど落ちていた<br>
+                しかし使えるものがわからない<br>
+                周りを探してみるとタブレット端末があった</p>
+               <div class="story__note__outer bg-color--gray">
+            <ul class="story__note">
+              <li>「コイン対応機種一覧」</li>
+              <li>🔐 □ □ □</li>
+            </ul>
+          </div>
+              <p class="text-center">また、メモのようなものも見つかった<br>
+          四五八=542 三六九=？と書いてあった</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -181,8 +189,7 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　クリア！</div>
-              <div class="clear-message__content">スタッフルームに入り<br>
-                クレーンゲームの電源をつけることができたようだ</div>
+              <div class="clear-message__content">このクレーンゲームならゲームコインが使えるみたいだ</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
